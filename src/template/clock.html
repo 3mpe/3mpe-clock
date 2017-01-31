@@ -1,0 +1,22 @@
+<div class="map-2">
+  <div class="profile-nav alt">
+    <section class="panel">
+      <div class="user-heading alt clock-row terques-bg">
+        <h3 class="sub-tittle clock"> {{ title }} </h3>
+      </div>
+      <ul id="clock">
+        <li id="sec"></li>
+        <li id="hour"><li>
+        <li id="min"></li>
+      </ul>
+      <ul class="clock-category" data-ng-if="angular.isUndefined(categorys)" data-ng-repeat=" category in categorys">
+        <li>
+          <a href="{{ category.href }}" class="{{ category.class }}">
+            <img src="{{category.src}}" alt="{{category.alt}}">
+            <span>{{ category.title }}</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</div>

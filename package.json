@@ -1,0 +1,40 @@
+{
+  "name": "3mpe-clock",
+  "version": "1.0.0",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "clock",
+    "angular clock",
+    "live",
+    "time"
+  ],
+  "description": "",
+  "homepage": "https://github.com/3mpe/3mpe-clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Emre Vatansever",
+    "email": "vatanseveremre90@gmail.com",
+    "url": "https://github.com/3mpe"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-banner": "^0.2.3",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-htmlmin": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "jshint-stylish": "^0.4.0",
+    "load-grunt-tasks": "^0.6.0",
+    "moment": "^2.17.1",
+    "time-grunt": "^0.4.0"
+  }
+}
